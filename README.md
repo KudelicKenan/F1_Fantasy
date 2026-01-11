@@ -436,29 +436,12 @@ Seederi kreiraju sledeće podatke:
 - Fantasy timove za postojeće korisnike
 - Povezivanje vozača sa fantasy timovima
 
-## 9. Bezbednost
 
-### 9.1 Implementirane Mere Bezbednosti
-
-- **CSRF zaštita**: Automatska zaštita za sve POST/PUT/DELETE zahteve
-- **SQL Injection zaštita**: Eloquent ORM koristi prepared statements
-- **XSS zaštita**: Blade templating engine automatski escape-uje output
-- **File Upload validacija**: Validacija tipa i veličine fajlova
-- **Autentifikacija**: Middleware zaštita za zaštićene rute
-- **Environment variables**: Osetljivi podaci čuvaju se u `.env` fajlu
-
-### 9.2 Preporuke
-
-- Nikada ne commit-ujte `.env` fajl u Git
-- Koristite jake lozinke za produkciju
-- Redovno ažurirajte dependencies
-- Koristite HTTPS u produkciji
-
-## 10. Zaključak
+## 9. Zaključak
 
 Ova aplikacija predstavlja kompletan web sistem za upravljanje fantasy timovima Formule 1, implementiran koristeći moderne web development prakse i Laravel framework. Sistem obuhvata sve tražene funkcionalnosti uključujući autentifikaciju, CRUD operacije, file handling, statistike, i integraciju sa eksternim API servisima.
 
-## 11. Reference
+## 10. Reference
 
 - [Laravel Dokumentacija](https://laravel.com/docs)
 - [Laravel Fortify](https://laravel.com/docs/fortify)
@@ -466,12 +449,12 @@ Ova aplikacija predstavlja kompletan web sistem za upravljanje fantasy timovima 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Eloquent ORM](https://laravel.com/docs/eloquent)
 
-## 12. Licenca
+## 11. Licenca
 
 Ovaj projekat je kreiran u edukativne svrhe.
 
 ---
 
-**Autor**: [Vaše ime]  
-**Datum**: 2024  
+**Autor**: Kenan Kudelić 
+**Datum**: 11.1.2026 
 **Verzija**: 1.0.0
